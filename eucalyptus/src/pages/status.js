@@ -20,7 +20,8 @@ class status extends Component{
       } = await axios ({
           method : 'post',
           // url : 'http://210.117.181.118:4848/spring/scoringboard',
-          url : 'http://218.151.66.186:8080/spring/scoringboard',
+        //url: 'http://218.151.66.186:8080/spring/scoringboard',
+        url: 'https://luck2901.github.io/react/eucalyptus/src/scoringboard.json',
           // url : 'https://wja0.github.io/react/eucalyptus/src/scoringboard.json',
           data : {
               ID : 'j'
